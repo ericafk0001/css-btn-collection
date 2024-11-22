@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 *,
 *::after,
 *::before {
@@ -24,4 +24,50 @@ body {
   align-items: center;
   gap: 25px;
   margin-bottom: 2vh;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h1 span {
+  font-family: "Pacifico", "Inter", Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(
+    90deg,
+    rgb(94, 118, 255) 2%,
+    rgb(250, 146, 146) 56%,
+    rgb(253, 146, 69) 85%
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  padding-right: 2px;
+  font-size: 36px;
+}
+
+#subtitle {
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+
+a {
+  color: rgb(41, 41, 255);
+  transition: all 0.2s;
+  margin-right: 8px;
+}
+
+i {
+  font-size: 24px;
+}
+
+a:hover {
+  opacity: 0.6;
+  transform: scale(1.05);
+}
+
+#source-link {
+  margin-top: 6px;
+  margin-bottom: 4vh;
+  display: flex;
+  align-items: center;
 }
